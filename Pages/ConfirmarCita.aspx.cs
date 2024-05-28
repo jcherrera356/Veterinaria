@@ -15,7 +15,7 @@ namespace Veterinaria.Pages
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //prueba
             idAnimal = Convert.ToInt32(Request.QueryString["idAnimal"]);
             idCita = Convert.ToInt32(Request.QueryString["idCita"]);
 
