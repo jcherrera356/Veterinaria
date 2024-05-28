@@ -1,0 +1,33 @@
+﻿.custom-card-img {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    height: 200px; /* La altura se fija en 200px */
+    object-fit: cover; /* Esto asegura que la imagen cubra completamente el área */
+}
+
+.animal-info {
+    display: none; /* Oculta la información por defecto */
+}
+
+.animal-card:hover .animal-info {
+    display: block; /* Muestra la información cuando se pasa el mouse sobre la tarjeta */
+}
+
+.animal-card:hover .animal-alias {
+    display: none; /* Oculta el alias cuando se pasa el mouse sobre la tarjeta */
+}
+
+.animal-alias {
+    font-size: 1.2rem; /* Tamaño de fuente más pequeño para el título */
+}
+
+.animal-info {
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño para la información */
+}
+
+.animal-card .open-modal {
+    display: none; /* Oculta el botón por defecto */
+}
+
+.animal-card:hover .open-modal {
+    display: block; /* Muestra el botón cuando se pasa el mouse sobre la tarjeta */
+}
